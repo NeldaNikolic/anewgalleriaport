@@ -1,0 +1,40 @@
+ /****** bodyPageTitle**********/
+ .Galleriah1{
+    text-align: center;
+    font-size: 3rem;
+    position: relative;
+    color: #1d032c;
+    margin-top: 6%;
+}
+ /****** bodyPageTitleHr**********/
+.Galleriah1  hr {
+    position: absolute;
+    width: 428px;
+    bottom: -30%;
+    height: 40px;
+    left: 33%;
+    box-shadow:   10px 10px 2px #181801;
+}
+ /****** bodyPagecotainer**********/
+.Galleriadivtwo{
+   background-color: #fff;
+}
+@media  (max-width:992px){
+    .Galleriah1{
+        font-size: 2rem;
+    }
+    .Galleriah1  hr{
+        width: 258px;
+        bottom: -30%;
+        height: 25px;
+        left: 35%;
+    }
+}
+@media  (max-width:580px){
+    .Galleriah1  hr{
+        width: 220px;
+        bottom: -50%;
+        height: 40px;
+        left: 30%;
+    }
+}

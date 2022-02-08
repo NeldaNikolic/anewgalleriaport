@@ -1,0 +1,17 @@
+/****** pageHearderOfAbout**********/
+.container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+    margin-top: 6%;
+}
+.container hr{
+    position: absolute;
+    width: 428px;
+    bottom: 12%;
+    height: 40px;
+    box-shadow:   10px 10px 2px #181801;
+}
+

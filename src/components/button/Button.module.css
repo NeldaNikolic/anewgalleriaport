@@ -1,0 +1,185 @@
+/****** button**********/
+/****** HistoryButton**********/
+
+.buttonone{
+    display: flex;
+    font-style: bold;
+    position: absolute;
+    height: 60px;
+    width: 100px;
+    left: 54%;
+    bottom: 12%;
+    border: none;
+    color: white;
+    padding: 5px;
+    display: inline;
+    text-align: center;
+    font-size:1.5rem;
+    margin: 4px 2px;
+    background-color:  #1d032c;
+    border-radius: 40%;
+    box-shadow:  6px 4px 10px #181818;
+    cursor: pointer;  
+}
+/****** HistoryButtonHover**********/
+.buttonone:hover{
+    border-bottom:5px solid rgb(235, 239, 241) ;
+    filter: opacity(.8) ;
+    transform: scale(1.2);
+}
+/****** ViewButton**********/
+.buttontwo{
+    display: flex;
+    font-style: bold;
+    position: absolute;
+    height: 60px;
+    width: 100px;
+    left: 67.5%;
+    bottom: 12%;
+    border: none;
+    color: white;
+    padding: 5px;
+    display: inline;
+    text-align: center;
+    font-size:1.5rem;
+    margin: 4px 2px;
+    background-color:  #1d032c;
+    border-radius: 40%;
+    box-shadow:  6px 4px 10px #181818;
+    cursor: pointer;  
+}
+/****** ViewButtonHover**********/
+.buttontwo:hover{
+    border-bottom:5px solid rgb(235, 239, 241) ;
+    filter: opacity(.8) ;
+    transform: scale(1.2);
+}
+/****** EmailButton**********/
+.buttonthree{
+    display: flex;
+    font-style: bold;
+    position: absolute;
+    height: 60px;
+    width: 100px;
+    left: 81%;
+    bottom: 12%;
+    border: none;
+    color: white;
+    padding: 5px;
+    display: inline;
+    text-align: center;
+    font-size:1.5rem;
+    margin: 4px 2px;
+    background-color:  #1d032c;
+    border-radius: 40%;
+    box-shadow:  6px 4px 10px #181818;
+    cursor: pointer; 
+}
+/****** EmailButtonHover**********/
+.buttonthree:hover{
+    border-bottom:5px solid rgb(235, 239, 241) ;
+    filter: opacity(.8) ;
+    transform: scale(1.2);  
+}
+@media  (max-width:991px) {
+    .buttonone{
+       height: 47px;
+       width: 100px;
+       bottom: 7%;
+    }
+    .buttontwo{
+      height: 47px;
+      width: 100px;
+      bottom: 7%;
+    }
+    .buttonthree{
+       height: 47px;
+       width: 100px;
+       bottom: 7%;
+    }
+   
+}
+@media  (max-width:825px) {
+    .buttonone{
+        height: 42px;
+        width: 90px;
+        bottom: 3%;
+     }
+     .buttontwo{
+       height: 42px;
+       width: 90px;
+       bottom: 3%;
+     }
+     .buttonthree{
+        height: 42px;
+        width: 90px;
+        bottom: 3%;
+     }
+    
+}
+@media  (max-width:716px) {
+    .buttonone{
+        height: 34px;
+        width: 80px;
+        bottom: 2%;
+        margin-right: 3%;
+        
+     }
+     .buttontwo{
+       height: 34px;
+       width: 80px;
+       bottom: 2%;
+       margin-right: 3%;
+     }
+     .buttonthree{
+        height: 34px;
+        width: 80px;
+        bottom: 2%;
+        margin-right: 3%;
+
+     }
+    
+}
+
+
+@media  (max-width:480px) {
+    .buttonone{
+        height: 35px;
+        width: 100%;
+        left: 30%;
+        bottom: 10%;
+    }
+    .buttontwo{
+        height: 35px;
+        width: 100px;
+        bottom: 10%;
+    }    
+    .buttonthree{
+        height: 35px;
+        width: 100px;
+        bottom: 10%;
+    }
+}
+@media  (max-width:580px){
+    .buttonone{
+        height: 5%;
+        width: 20%;
+        left: 15%;
+        top: 92%;
+        border-radius: 50%;       
+    }         
+    .buttontwo{
+        height: 5%;
+        width: 20%;
+        left: 45%;
+        top: 92%;
+        border-radius: 50%;
+    }    
+    .buttonthree{
+        height: 5%;
+        width: 20%;
+        left: 75%;
+        top: 92%;
+        border-radius: 50%;
+    }
+}

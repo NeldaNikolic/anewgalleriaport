@@ -1,0 +1,16 @@
+/****** footer and copyright**********/
+.foottwo{
+   background-color:#371e44d7 ;
+    height: 30px;
+    width: 100%;
+    bottom: 0px;
+    z-index: 999;
+    opacity: 0.9;
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+

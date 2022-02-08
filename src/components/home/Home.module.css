@@ -1,0 +1,163 @@
+/****** FirstBodyPage**********/
+.Home{
+    background: linear-gradient(90deg, rgba(204,232,239,1) 0%, rgba(202,199,158,1) 99%);
+    display: flex;
+    height: 610px;
+    position: relative;
+    width:auto;
+    text-align: left;
+}
+/****** titleGalleria **********/
+.Hello{
+    display: flex;
+    position: absolute;
+    padding-top: 0;
+    left: 30%;
+    font-size: 3rem;
+    color: #1d032c;
+    text-align: bold;
+    text-shadow: 2px 2px 4px #fff;
+    margin: 0;
+    border: 0;
+    top: 0;
+}
+/****** containtOnRightSideOfPage**********/
+.container p {
+    text-align: left;
+    font-size: 14px;
+    color: #1d032c;
+    border-radius: 2px;
+    box-shadow:  .5px .5px 1px .5px#fff;
+    padding-bottom: 5px;
+    margin-right: 10px;
+}
+/****** containerOfText**********/
+.Home .container  {
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    font-size: 1.8rem; 
+}
+
+@media  (max-width:992px){
+    .Home{
+      height: 450px;
+    }
+    .Hello{
+      font-size: 2rem;
+      top: 18px;
+    }
+    .container p{
+      font-size: 14px;
+    }
+    .Home .container{
+      position: absolute;
+      top: 29%;
+      left: 50%;
+      font-size: .5rem;
+    }
+}
+@media  (max-width:825px) {
+    .container p{
+        font-size: 12px;
+      }
+      .Home .codetwo{
+        height: 33%
+    }
+    .Home .code{
+        height: 32%;
+    }
+}
+@media  (max-width:713px) {
+    .Home .code{
+        height: 32%;
+    }
+
+}
+@media  (max-width:580px) {
+    .Home .codetwo{
+        height: 23%
+    }
+    .Home .code{
+        height: 22%;
+    }
+
+}
+/****** image**********/
+/****** secondImage**********/
+.Home .codetwo{
+    height: 38%;
+    cursor: pointer;
+    position: absolute;
+    top: 37%;
+    left: 5%;
+    border-radius: 2%;
+    box-shadow:  6px 4px 6px #181818;
+    margin: 100px
+}
+/****** secondImageHover**********/
+.Home .codetwo:hover{
+    transform: scale(1.5);
+    transition: transform .2s;
+}
+/****** image**********/
+/****** firstImage**********/
+.Home .code{
+    height: 35%;
+    bottom: 26.5%;
+    position: absolute;
+    left: 5%;
+    border-radius: 2%;
+    box-shadow:  6px 4px 10px #181818;
+    cursor: pointer;
+    transition: transform 0.25s ease;
+    cursor: zoom-in;
+}
+/****** firstImageHover**********/
+.Home .code:hover{
+    transform: scale(1.5);
+    transition: transform .2s;
+    visibility: visible;
+}
+
+@media  (max-width:992px){
+    .Home .codetwo {
+        height: 33%;
+        top: 32.5%;
+    }
+    .Home .code {
+        height: 33%;
+        bottom: 30%;
+    }
+}
+
+@media  (max-width:580px){
+    .Home{
+        height: 710px;
+    }
+    .Hello{
+        font-size: 2rem;
+        left: 18%;
+        top: 32px;
+    }
+    .container p {
+        font-size: 16px;
+    }
+    .Home .container{
+        top: 22%;
+        left: 5%;
+    }
+    .Home .codetwo {
+        height: 30%;
+        top: 47%;
+        right: 5%;
+    }
+      .Home .code {
+        height: 0%;
+    }
+      .Home .codetwo:hover {
+       display: none;
+    }
+}
+
+

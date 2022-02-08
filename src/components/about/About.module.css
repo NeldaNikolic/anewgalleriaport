@@ -1,0 +1,185 @@
+
+/****** bodyMainContainer**********/
+.Abouttext{
+    background: linear-gradient(90deg, rgba(202,199,158,1) 0%,rgba(204,232,239,1) 99%);
+    padding-bottom: 32%;
+    top: 2%;
+    margin: 0;
+    border-radius: 0;
+    position: relative;
+    margin-right: 2%;
+    width: 100%;
+    height: 3875%;
+    
+}
+/****** rowContainer**********/
+.Aboutli {
+    display: inline-block;
+    padding-left: 2.5%;
+    max-width: 30%;
+}
+/****** paragContainertext**********/
+p{
+     color: #1d032c;
+     font-size: 1rem;  
+}
+/****** titleContainer**********/
+h4{
+    color: #1d032c;
+    font-size:1.8rem;
+    text-align: center;
+}
+/****** hrContainer**********/
+.Aboutli hr{
+    display: flex;
+    position: relative;
+    padding-left: 0;
+    width: 2300%;
+    height: 230px;
+    text-align:center;
+}
+/****** iconContainer**********/
+.Aboutli{
+    text-align: left;
+}
+.AboutIconWrapper {
+    text-align: center;
+    font-size: 1rem;
+    
+}
+.Abouticon{
+    text-align: center;
+    font-size: 2.8rem;
+    color: #3a2e1d;
+}
+/****** imageOfHistory**********/
+.codethree {
+    height: 30%;
+    top: 54%;
+    position: absolute;
+    left: 8.5%;
+    border-radius: 3%;
+    box-shadow:  1px 2px 2px 2px #181801;
+    cursor: pointer;
+    padding: 2%;
+}
+/****** imageOfadmiration**********/
+.codefour{
+    height: 15%;
+    top: 60%;
+    position: absolute;
+    left: 35%;
+    border-radius: 3%;
+    cursor: pointer;
+    box-shadow:  1px 2px 2px 2px #181801;
+    padding: 2%;
+    
+}
+    
+/****** imageOfStyle**********/
+.codefive{
+    height: 28%;
+    top:55%;
+    position: absolute;
+    left: 68%;
+    border-radius: 2%;
+    box-shadow:  1px 2px 1px 2px #181801;
+    cursor: pointer;
+    padding: 2%;
+}
+
+@media  (max-width:1104px){
+    .Abouttext{
+        padding-bottom: 12%;
+    }
+   
+    .Aboutli hr{
+        display: none;
+        max-width: 0%;
+        width: 0%;
+        height: 0%;
+        background-color: #000;
+    }
+    h4{
+        top: 8%;
+        font-size:2rem;
+    }
+    .Aboutli {
+        display: inline-block;
+        padding-left: 2%;
+        max-width: 60%;
+    }
+    .codethree {
+      height: 16%;
+      top: 10%;
+      left: 67%;
+    }
+    .codefour{
+        height: 7.5%;
+        top: 49%;
+        left: 63%;
+    }
+    .codefive {
+        height: 12%;
+        top:80%;
+        left: 64%;
+    }
+}
+@media  (max-width:729px){
+    .Abouttext{
+        padding-bottom: 18%;
+    }
+    .Aboutli {
+        padding: 5%;
+        max-width: 100%;
+    }
+    .codethree {
+        height: 8%;
+        top: 25%;
+        left: 42%;
+      }
+      .codefour{
+        height: 7%;
+        top: 57%;
+        left: 30%;
+    }
+    .codefive {
+        height: 10%;
+        top:86.5%;
+        left: 35%;
+    }
+}
+@media  (max-width:722px){
+    .codethree {
+        height: 5%;
+        top: 26%;
+        left: 45%;
+      }
+    .codefour{
+        height: 4%;
+        top: 59%;
+        left: 38%;
+    }
+    .codefive {
+        height: 7%;
+        top:88.5%;
+        left: 35%;
+    }
+}
+@media  (max-width:675px){
+    .codethree {
+        height: 5%;
+        top: 28%;
+        left: 45%;
+      }
+    .codefour{
+        height: 4%;
+        top: 61%;
+        left: 38%;
+    }
+    .codefive {
+        height: 7%;
+        top:91%;
+        left: 35%;
+    }
+}
